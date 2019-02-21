@@ -163,6 +163,9 @@ for (a = 0; a < 1; a += .01) {
 ```
 ### 3.3D 曲面和透视投影
 定义三维表面——定义一个管状物体
+
+![touyin](https://github.com/TanYanjieZYX/WebGame/blob/master/pic/game1.gif)
+
 ```
 <script>
 function surface(a, b) {
@@ -646,7 +649,8 @@ main();
 ## 2、实验原理
 整个游戏的流程：一定的速度下移，点击黑块，黑块消失，新的黑在普通游戏玩家眼中，应该是游戏开始，黑块以块不断向下移动，若黑块触底则游戏结束；
 而以开发者来说，应将每一个黑块和白块抽象成一个个的**数据结构**，黑块的**消失和出现**其实就是数据结构的**创造和销毁**，游戏的流程图：
-## 图片
+
+![liucheng](https://github.com/TanYanjieZYX/WebGame/blob/master/pic/game2.png)
 
 ## 3、实验步骤
 ### 1.页面布局——div
